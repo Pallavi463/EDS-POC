@@ -1,0 +1,34 @@
+.link-tiles ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-tiles a.link-tiles-tile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: white;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.link-tiles a.link-tiles-tile::after {
+  content: '\2192';
+  color: var(--brand-accent);
+}
+
+.link-tiles a.link-tiles-tile:hover {
+  border-color: var(--brand-accent);
+  box-shadow: 0 6px 18px rgb(15 30 69 / 10%);
+  text-decoration: none;
+}

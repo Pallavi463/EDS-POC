@@ -12,12 +12,18 @@
 
 :root {
   /* colors */
+
+  /* POC brand tokens: approximations of the Signify palette, swap for official values */
   --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --light-color: #f3f5f9;
+  --dark-color: #4a5068;
+  --text-color: #0f1e45;
+  --link-color: #0074c7;
+  --link-hover-color: #00539a;
+  --brand-navy: #0f1e45;
+  --brand-accent: #00a0d2;
+  --brand-accent-dark: #007aa3;
+  --border-color: #dfe3ec;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -322,4 +328,42 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* POC: dark section style (Section Metadata → Style: dark) */
+main .section.dark {
+  margin: 0;
+  padding: 56px 0;
+  background-color: var(--brand-navy);
+  color: white;
+}
+
+main .section.dark a:any-link:not(.button) {
+  color: #7fd3f0;
+}
+
+main .section.dark a.button.primary {
+  border-color: white;
+  background-color: white;
+  color: var(--brand-navy);
+}
+
+main .section.dark a.button.secondary {
+  border-color: white;
+  color: white;
+}
+
+main .section.dark a.button.secondary:hover {
+  background-color: rgb(255 255 255 / 10%);
+}
+
+/* POC: centered section style (Section Metadata → Style: center) */
+main .section.center .default-content-wrapper {
+  text-align: center;
+}
+
+main .section.center .default-content-wrapper p {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }

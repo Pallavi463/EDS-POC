@@ -18,3 +18,29 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+/* POC footer polish */
+footer .footer .columns ul {
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .footer .columns li {
+  margin: 4px 0;
+}
+
+footer .footer .columns img {
+  width: 128px;
+}
+
+footer .footer .columns > div {
+  align-items: flex-start;
+}
+
+footer .footer .default-content-wrapper {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+  color: var(--dark-color);
+}

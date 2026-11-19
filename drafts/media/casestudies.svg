@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1b2f"/><stop offset="1" stop-color="#434377"/></linearGradient>
+<radialGradient id="r" cx="0.72" cy="0.35" r="0.5"><stop offset="0" stop-color="#c0c0ff" stop-opacity="0.9"/><stop offset="1" stop-color="#c0c0ff" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="800" fill="url(#g)"/><rect width="1200" height="800" fill="url(#r)"/>
+<g fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"><circle cx="864" cy="280" r="60"/><circle cx="864" cy="280" r="130"/><circle cx="864" cy="280" r="200"/><circle cx="864" cy="280" r="270"/><circle cx="864" cy="280" r="340"/><circle cx="864" cy="280" r="410"/><circle cx="864" cy="280" r="480"/><circle cx="864" cy="280" r="550"/></g>
+<text x="1160" y="770" text-anchor="end" font-family="Arial" font-size="22" fill="#ffffff" fill-opacity="0.5">POC placeholder image</text></svg>

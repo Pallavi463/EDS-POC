@@ -1,0 +1,14 @@
+{
+  "total": 5,
+  "offset": 0,
+  "limit": 5,
+  "data": [
+    { "title": "Signify third quarter results 2026", "date": "2026-10-24", "path": "/news/q3-2026-results", "category": "Financial" },
+    { "title": "Color Kinetics debuts electronic beam angle adjustment technology", "date": "2026-10-14", "path": "/news/color-kinetics-beam-angle", "category": "Product" },
+    { "title": "Philips Hue expands the possibilities of smart lighting", "date": "2026-09-30", "path": "/news/philips-hue-smart-lighting", "category": "Consumer" },
+    { "title": "Capital Markets Day 2026", "date": "2026-09-16", "path": "/investors/capital-markets-day", "category": "Investors" },
+    { "title": "Sample: older release that the limit hides", "date": "2026-06-01", "path": "/news/sample", "category": "Sample" }
+  ],
+  "columns": ["title", "date", "path", "category"],
+  ":type": "sheet"
+}

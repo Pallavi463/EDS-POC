@@ -1,0 +1,30 @@
+.stats ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stats li {
+  padding: 24px;
+  border-left: 4px solid var(--brand-accent);
+}
+
+.stats .stats-value {
+  display: block;
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.stats .stats-label {
+  display: block;
+  margin-top: 8px;
+  color: var(--dark-color);
+  font-size: var(--body-font-size-s);
+}
+
+.section.dark .stats .stats-label { color: #c5cce0; }

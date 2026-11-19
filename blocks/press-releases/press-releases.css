@@ -1,0 +1,29 @@
+.press-releases ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.press-releases li {
+  padding: 24px;
+  border-top: 3px solid var(--brand-accent);
+  background: var(--light-color);
+}
+
+.press-releases .press-releases-meta {
+  margin: 0 0 8px;
+  color: var(--dark-color);
+  font-size: var(--body-font-size-xs);
+}
+
+.press-releases h3 {
+  margin: 0;
+  font-size: var(--heading-font-size-s);
+}
+
+.press-releases h3 a:any-link {
+  color: var(--text-color);
+}
