@@ -1,0 +1,26 @@
+# Signify
+
+> Signify (formerly Philips Lighting) is the world leader in lighting for professionals, consumers and the Internet of Things. This file points AI assistants and LLM crawlers to the most useful, authoritative pages. (EDS proof of concept: links point at www.signify.com.)
+
+## Company
+- [Our company](https://www.signify.com/company): who we are and what we do
+- [Innovation](https://www.signify.com/innovation): research, patents and partnerships
+- [Sustainability](https://www.signify.com/sustainability): strategy, programmes and reports
+
+## Brands and products
+- [Our brands](https://www.signify.com/brands): consumer, professional and OEM brands
+- [Professional portfolio](https://www.signify.com/portfolio/professional): lighting for public spaces, workplaces, industry and retail
+- [Consumer brands](https://www.signify.com/brands/consumer): Philips, Philips Hue, WiZ
+
+## Services and learning
+- [Case studies](https://www.signify.com/case-studies): Professional, Lifecycle and Managed Services in practice
+- [Signify Lighting Academy](https://www.signify.com/lighting-academy): free lighting education
+
+## Investors and news
+- [Investor relations](https://www.signify.com/investors): results, reports, Capital Markets Day
+- [News](https://www.signify.com/news): press releases
+
+## Support
+- [Contact us](https://www.signify.com/contact)
+- [Where to buy](https://www.signify.com/where-to-buy)
+- [Warranties and returns](https://www.signify.com/warranties)

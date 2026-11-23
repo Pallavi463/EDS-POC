@@ -1,0 +1,20 @@
+{
+  "total": 1,
+  "offset": 0,
+  "limit": 1,
+  "data": [
+    {
+      "path": "/drafts/index",
+      "title": "Signify | World leader in lighting (EDS POC)",
+      "description": "Edge Delivery Services proof of concept: the Signify homepage rebuilt with document-based authoring.",
+      "lastModified": "1763700000"
+    }
+  ],
+  "columns": [
+    "path",
+    "title",
+    "description",
+    "lastModified"
+  ],
+  ":type": "sheet"
+}

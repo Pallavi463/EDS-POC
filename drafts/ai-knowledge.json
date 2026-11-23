@@ -1,0 +1,113 @@
+{
+  "total": 14,
+  "offset": 0,
+  "limit": 14,
+  "data": [
+    {
+      "keywords": "brand brands portfolio philips hue wiz cooper genlyte advance bodine",
+      "question": "What brands does Signify have?",
+      "answer": "Signify's brands cover consumer lighting (Philips, Philips Hue, WiZ), professional lighting (Cooper Lighting Solutions, Genlyte Solutions) and OEM components (Advance, Bodine).",
+      "link": "https://www.signify.com/brands",
+      "title": "Our brands"
+    },
+    {
+      "keywords": "smart home hue wiz connected app",
+      "question": "Which brands are for smart home lighting?",
+      "answer": "For connected home lighting, look at Philips Hue and WiZ. Both are controlled from an app and work with popular smart-home platforms.",
+      "link": "https://www.signify.com/brands/consumer",
+      "title": "Consumer brands"
+    },
+    {
+      "keywords": "professional office city street luminaire project",
+      "question": "Do you offer lighting for offices, cities and other professional projects?",
+      "answer": "Yes. Signify provides products, connected systems and services for public spaces, workplaces, industry and retail, delivered through its professional brands and lighting services teams.",
+      "link": "https://www.signify.com/portfolio/professional",
+      "title": "Professional portfolio"
+    },
+    {
+      "keywords": "services lifecycle managed case study studies",
+      "question": "What lighting services do you offer?",
+      "answer": "Signify offers Professional, Lifecycle and Managed Services, from design and installation to ongoing operation. The case studies show examples across applications.",
+      "link": "https://www.signify.com/case-studies",
+      "title": "Case studies"
+    },
+    {
+      "keywords": "learn training course academy education",
+      "question": "Where can I learn about lighting?",
+      "answer": "The Signify Lighting Academy offers free educational resources from industry experts to build your lighting knowledge.",
+      "link": "https://www.signify.com/lighting-academy",
+      "title": "Signify Lighting Academy"
+    },
+    {
+      "keywords": "investor results quarterly financial share annual report capital markets",
+      "question": "Where can I find financial results?",
+      "answer": "Quarterly results, annual reports and Capital Markets Day materials are published on the Investor Relations pages.",
+      "link": "https://www.signify.com/investors",
+      "title": "Investor relations"
+    },
+    {
+      "keywords": "job jobs career careers work vacancy hiring",
+      "question": "How can I work at Signify?",
+      "answer": "Open positions and information about working at Signify are on the careers pages.",
+      "link": "https://www.signify.com/careers",
+      "title": "Careers"
+    },
+    {
+      "keywords": "contact help question support phone email talk",
+      "question": "How can I contact Signify?",
+      "answer": "Use the contact page to reach the right team for products, services, partnerships or media enquiries.",
+      "link": "https://www.signify.com/contact",
+      "title": "Contact us"
+    },
+    {
+      "keywords": "warranty warranties return broken faulty repair",
+      "question": "How do warranties and returns work?",
+      "answer": "Warranty terms and return procedures depend on the brand and product. The warranties page links to the details for each brand.",
+      "link": "https://www.signify.com/warranties",
+      "title": "Warranties & returns"
+    },
+    {
+      "keywords": "price prices cost costs cheap cheapest discount offer deal how much",
+      "question": "How much does a product cost?",
+      "answer": "I can't quote prices: they vary by product, retailer and country. The where-to-buy page lists retailers near you, and each brand's site shows current prices.",
+      "link": "https://www.signify.com/where-to-buy",
+      "title": "Where to buy"
+    },
+    {
+      "keywords": "buy where store shop purchase distributor",
+      "question": "Where can I buy Signify products?",
+      "answer": "The where-to-buy page helps you find retailers and distributors for consumer and professional products in your country.",
+      "link": "https://www.signify.com/where-to-buy",
+      "title": "Where to buy"
+    },
+    {
+      "keywords": "sustainability climate carbon circular environment green",
+      "question": "What is Signify doing on sustainability?",
+      "answer": "Sustainability is central to Signify's strategy, including energy-efficient LED and connected lighting and circular products. The sustainability pages have the current programme and reports.",
+      "link": "https://www.signify.com/sustainability",
+      "title": "Sustainability"
+    },
+    {
+      "keywords": "innovation patent research f1 formula mercedes",
+      "question": "How does Signify innovate?",
+      "answer": "Signify invests in research and holds a large patent portfolio. It also partners with Mercedes-AMG PETRONAS F1 on technology and innovation.",
+      "link": "https://www.signify.com/innovation",
+      "title": "Innovation"
+    },
+    {
+      "keywords": "led light iot internet things connected leader",
+      "question": "Is Signify the leader in lighting?",
+      "answer": "Signify describes itself as the world leader in lighting for professionals, consumers and the Internet of Things.",
+      "link": "https://www.signify.com/company",
+      "title": "Our company"
+    }
+  ],
+  "columns": [
+    "keywords",
+    "question",
+    "answer",
+    "link",
+    "title"
+  ],
+  ":type": "sheet"
+}
