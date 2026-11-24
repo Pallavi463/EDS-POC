@@ -1,3 +1,5 @@
+import { toSitePath } from '../../scripts/utils.js';
+
 /**
  * Press releases: list rendered from a spreadsheet (JSON endpoint).
  * Authoring: | Source | link to the sheet, e.g. /press-releases.json |
@@ -24,7 +26,7 @@ export default async function decorate(block) {
   if (!config.source) return;
 
   try {
-    const resp = await fetch(config.source);
+    const resp = await fetch(toSitePath(config.source));
     if (!resp.ok) throw new Error(resp.status);
     const json = await resp.json();
     const rows = (json.data || [])

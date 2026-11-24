@@ -1,4 +1,5 @@
 import { createProvider } from './ai-providers.js';
+import { toSitePath } from '../../scripts/utils.js';
 
 /**
  * AI Assistant block.
@@ -20,11 +21,23 @@ function readConfig(block) {
     const [k, v] = row.children;
     if (!k || !v) return;
     const key = k.textContent.trim().toLowerCase();
-    const items = [...v.querySelectorAll('li')].map((li) => li.textContent.trim());
     const a = v.querySelector('a');
-    if (items.length) cfg[key] = items;
-    else if (a) cfg[key] = a.getAttribute('href');
-    else cfg[key] = v.textContent.trim();
+    if (key === 'suggestions') {
+      // accept a bulleted list, separate paragraphs, or line breaks
+      let items = [...v.querySelectorAll('li')].map((li) => li.textContent);
+      if (!items.length) {
+        // Word lists often arrive as "• one<br>• two" or as separate paragraphs
+        const copy = v.cloneNode(true);
+        copy.querySelectorAll('br').forEach((br) => br.replaceWith('\n'));
+        copy.querySelectorAll('p').forEach((p) => p.append('\n'));
+        items = copy.textContent.split('\n');
+      }
+      cfg[key] = items.map((t) => t.replace(/^\s*[•·\-*–]\s*/, '').trim()).filter(Boolean);
+    } else if (a) {
+      cfg[key] = a.getAttribute('href');
+    } else {
+      cfg[key] = v.textContent.trim();
+    }
   });
   return cfg;
 }
@@ -96,8 +109,8 @@ export default async function decorate(block) {
   let busy = false;
   const providerPromise = createProvider({
     endpoint: cfg.endpoint,
-    knowledgeUrl: cfg.knowledge,
-    indexUrl: cfg.index,
+    knowledgeUrl: toSitePath(cfg.knowledge),
+    indexUrl: toSitePath(cfg.index),
   });
   providerPromise.then((p) => {
     panel.dataset.mode = p.name;
@@ -144,7 +157,7 @@ export default async function decorate(block) {
     }
   };
 
-  (cfg.suggestions || []).forEach((s) => {
+  [].concat(cfg.suggestions || []).forEach((s) => {
     const chip = el('button', { type: 'button', class: 'ai-assistant-chip' }, s);
     chip.addEventListener('click', () => ask(s));
     chips.append(chip);
